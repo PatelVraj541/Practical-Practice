@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+Enno = int(input("Enter enrollment number: "))
+Branch = input("Enter your branch: ")
+Age = int(input("Enter your age: "))
+Email = input("Enter your email ID: ")
+Mobile = int(input("Enter your mobile number: "))
+print(f" Name: {name}\nEnrollment Number: {Enno}\nBranch: {Branch}\nAge: {Age}\nEmail ID: {Email}\nMobile Number: {Mobile} ")
+print("Name: {}\nEnrollment Number: {}\nBranch: {}\nAge: {}\nEmail ID: {}\nMobile Number: {}".format(name, Enno, Branch, Age, Email, Mobile))
